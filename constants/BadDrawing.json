@@ -1,0 +1,11 @@
+{
+    "name": "Bad Drawing",
+    "description": "An NFT of a Bad Drawing",
+    "image": "ipfs://bafybeiemvcm3v6nqgdyrjfsnckc4vfinnj5v7nx5myz7uxmwdki2w6rq6e/badDrawing.jpeg",
+    "attributes": [
+        {
+            "trait_type": "Badness",
+            "value": 80
+        }
+    ]
+}

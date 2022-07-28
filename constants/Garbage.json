@@ -1,0 +1,11 @@
+{
+    "name": "Garbage",
+    "description": "An NFT of a Garbage Bag",
+    "image": "ipfs://bafybeicz75tp3cux4bjvu4kxk46emxypyanzqcmefuji34hca7a24avbzq/GroceryBag.jpg",
+    "attributes": [
+        {
+            "trait_type": "Trash",
+            "value": 100
+        }
+    ]
+}

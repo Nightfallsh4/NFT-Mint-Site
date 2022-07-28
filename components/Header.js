@@ -1,12 +1,11 @@
 import ConnectButton from "./ConnectButton"
 import Link from "next/link"
-
 export default function Header() {
 	return (
 		<nav className="border-b-2 border-[#D6D5A8]">
 			<div className="flex flex-row items-center justify-between">
 				<Link href={"/"}>
-					<a className="text-4xl font-bold text-[#D6D5A8] transition ease-in-out hover:scale-105">Panda Market</a>
+					<a className="text-4xl font-bold text-[#D6D5A8]">Panda Market</a>
 				</Link>
 				<div className="flex items-center justify-between">
 					<Link href={"/"}>

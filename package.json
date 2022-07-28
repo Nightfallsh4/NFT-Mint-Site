@@ -7,9 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "moralis:sync" : "moralis-admin-cli connect-local-devchain --chain hardhat --moralisSubdomain dagq2diwxwur.usemoralis.com --frpcPath ./frp/frpc"
+    "moralis:sync": "moralis-admin-cli connect-local-devchain --chain hardhat --moralisSubdomain dagq2diwxwur.usemoralis.com --frpcPath ./frp/frpc"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.9.2",
     "@web3uikit/core": "^0.1.2",
     "@web3uikit/icons": "^0.1.2",
     "@web3uikit/web3": "^0.1.2",

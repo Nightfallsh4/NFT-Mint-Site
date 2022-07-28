@@ -1,0 +1,11 @@
+{
+    "name": "Humming Bird",
+    "description": "An NFT of a Humming Bird",
+    "image": "ipfs://bafybeibd4mxkyxhbsp2ydogwlqr5pfnyxqrcrfy3nmiano6mp7h3v7qfjq/HummingBird.jpg",
+    "attributes": [
+        {
+            "trait_type": "Hover",
+            "value": 100
+        }
+    ]
+}
