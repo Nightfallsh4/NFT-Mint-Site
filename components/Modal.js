@@ -9,7 +9,7 @@ export default function Mod(props) {
 		top: "50%",
 		left: "50%",
 		transform: "translate(-50%, -50%)",
-		width: 450,
+		width: 400,
 		bgcolor: "#51557E",
 		border: "2px solid",
 		borderRadius: 7,
@@ -27,12 +27,11 @@ export default function Mod(props) {
 		<div>
 			<Box sx={style}>
 				<div className="justify-between items-center">
-					<div>
 						<img
 							src={props.path}
-							className="w-80 h-96 rounded-3xl mb-5 block"
+							className="w-80 h-96 rounded-3xl mb-5 inline-block"
 						/>
-					</div>
+					
 					<Contract addressIndex={props.addressIndex}/>
 				</div>
 			</Box>

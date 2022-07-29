@@ -1,5 +1,6 @@
 import ConnectButton from "./ConnectButton"
 import Link from "next/link"
+
 export default function Header() {
 	return (
 		<nav className="border-b-2 border-[#D6D5A8]">
@@ -15,6 +16,7 @@ export default function Header() {
 						<a className="px-20 text-2xl font-bold text-[#D6D5A8] transition ease-in-out hover:scale-105">Sell NFT</a>
 					</Link>
 					<ConnectButton />
+					
 				</div>
 			</div>
 			<p className="text-xl text-[#D6D5A8] py-10">
